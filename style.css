@@ -1,0 +1,39 @@
+
+
+  
+#body {
+
+  font-size: 2em;
+  color: rgb(119, 128, 0);
+  margin-top: 2em;
+  margin-top: 2em;
+
+}
+.button {
+  background-color: #db7664;
+  color: white;
+  border-radius: 60px;
+  font-size: x-large;
+  height: 50px;
+  width: 50px;
+ }
+ .button:active {
+   background: red;
+  }
+ 
+.calculator {
+ padding: 15px;
+ border-radius: 1em;
+ height: 500px;
+ width: 500px;
+ background-color: black;
+}
+.display-area {
+ background-color: #dcdbe1;
+ color: black;
+ border-radius: 10px;
+ height: 50px;
+ width: 500px;
+ font-size: 1em;
+
+}

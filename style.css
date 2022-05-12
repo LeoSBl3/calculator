@@ -28,11 +28,11 @@
  width: 500px;
  background-color: black;
 }
-.display-area {
+.display-box {
  background-color: #dcdbe1;
  color: black;
  border-radius: 10px;
- height: 50px;
+ height: 20px;
  width: 500px;
  font-size: 1em;
 

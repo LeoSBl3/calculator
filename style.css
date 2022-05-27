@@ -6,10 +6,41 @@
   font-size: 2em;
   color: rgb(119, 128, 0);
   margin-top: 2em;
-  margin-top: 2em;
+
 
 }
+.buttons {
+  color: white;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+
+ }
+
 .button {
+  background-color: #db7664;
+  color: white;
+  border-radius: 60px;
+  font-size: x-large;
+  height: 50px;
+  width: 50px;
+ }
+ .operator {
+  background-color: #db7664;
+  color: white;
+  border-radius: 60px;
+  font-size: x-large;
+  height: 50px;
+  width: 50px;
+ }
+ .clear {
+  background-color: #db7664;
+  color: white;
+  border-radius: 60px;
+  font-size: x-large;
+  height: 50px;
+  width: 50px;
+ }
+ .equal {
   background-color: #db7664;
   color: white;
   border-radius: 60px;
@@ -22,18 +53,63 @@
   }
  
 .calculator {
- padding: 15px;
- border-radius: 1em;
- height: 500px;
- width: 500px;
- background-color: black;
+ padding: 25px;
+ position: fixed;
+ min-width: 350px;
+ left: 50px;
+
 }
 .display-box {
- background-color: #dcdbe1;
- color: black;
- border-radius: 10px;
- height: 20px;
- width: 500px;
+ background-color: #8e14a7;
+ color: wheat;
+ border-radius: 5px;
+ height: 60px;
+ width: 320px;
  font-size: 1em;
+ margin-bottom: 1em;
 
+}
+
+
+.history-screen {
+  position: fixed;
+  padding: 20px;
+  color: black;
+  background-color: rgb(231, 200, 206);
+  font-size: 26px;
+  min-height: 320px;
+  max-height: 320px;
+  width: 370px;
+  left: 600px;
+
+}
+
+.result {
+  border: 5px solid rgb(250, 24, 24);
+}
+
+.result-list {
+  list-style-type: none;
+  margin-top: 1px;
+  border-color: rgb(50, 20, 220);
+}
+
+.result-list li {
+  position: relative;
+  font-size: 25px;
+  margin-top: 15px;
+  background-color: rgb(20, 47, 220);
+  text-align: left;
+}
+
+li .historybutton {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(239, 13, 13);
 }
